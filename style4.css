@@ -1,0 +1,146 @@
+/* Reset some default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+/* Header styling */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+/* Main content styling */
+div {
+    margin-top: 20px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+}
+
+/* Section styling for each tool */
+h2 {
+    font-size: 2rem;
+    color: #4CAF50;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 5px;
+}
+
+p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    line-height: 1.8;
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Paragraph content for better readability */
+#axe, #rake, #shovel, #fork, #saw, #mover {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#axe {
+    border-left: 5px solid #4CAF50;
+}
+
+#rake {
+    border-left: 5px solid #FF9800;
+}
+
+#shovel {
+    border-left: 5px solid #2196F3;
+}
+
+#fork {
+    border-left: 5px solid #FF5722;
+}
+
+#saw {
+    border-left: 5px solid #9C27B0;
+}
+
+#mover {
+    border-left: 5px solid #03A9F4;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.6rem;
+    }
+
+    h3 {
+        font-size: 1.3rem;
+    }
+}
+
+#group{
+    width: 900px;
+}
+.tools{
+    border-radius: 40px;
+}
+footer{
+    background: green;
+    height: 70px;
+    width: 100%;
+    padding-bottom: 50px;
+    color: white;
+    margin:0%;
+
+}
+
+/* *{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    padding: 20px 200px;
+    margin: 20px;
+}
+p{
+    padding: 10px  20px;
+}
+
+header h1{
+    position: fixed;
+    background-color: #0b0230;
+    color: greenyellow;
+    width: 100%;
+} */
